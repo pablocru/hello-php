@@ -1,5 +1,13 @@
 {
-  "cSpell.words": ["CFGS", "phar", "phpstan", "phpstorm", "phpunit"],
+  "cSpell.words": [
+    "autoloader",
+    "CFGS",
+    "phar",
+    "phpstan",
+    "phpstorm",
+    "phpunit",
+    "stan"
+  ],
   "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
   "editor.formatOnSave": true,
   "[php]": {
