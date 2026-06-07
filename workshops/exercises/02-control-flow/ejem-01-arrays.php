@@ -7,21 +7,21 @@
 </head>
 <body>
     <?php
-        $a=array(0=>8, 1=>9);
+    $a = [0 => 8, 1 => 9];
 
-        $title="Lista de numeros usando";
+    $title = "Lista de numeros usando";
 
-        echo "$title for:<br>";
-        for($i=0; $i < count($a); ++$i) {
-            echo $a[$i], "<br>";
-        }
+    echo "$title for:<br>";
+    for ($i = 0; $i < count($a); ++$i) {
+        echo $a[$i], "<br>";
+    }
 
-        echo "<br>";
-        
-        echo "$title foreach:<br>";
-        foreach($a as $num) {
-            echo $num, "<br>";
-        }
+    echo "<br>";
+
+    echo "$title foreach:<br>";
+    foreach ($a as $num) {
+        echo $num, "<br>";
+    }
     ?>
 </body>
 </html>

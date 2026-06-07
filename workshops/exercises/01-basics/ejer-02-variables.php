@@ -7,14 +7,14 @@
 </head>
 <body>
     <?php
-        echo "Segundo ejercicio: visualización del contenido de variables<br>";
+    echo "Segundo ejercicio: visualización del contenido de variables<br>";
 
-        // Esta variable indica mi nombre
-        $nombre="Pablo";
-        // Esta variable indica mi edad
-        $edad=27;
+    // Esta variable indica mi nombre
+    $nombre = "Pablo";
+    // Esta variable indica mi edad
+    $edad = 27;
 
-        echo "Mi nombre es $nombre y tengo $edad años.";
+    echo "Mi nombre es $nombre y tengo $edad años.";
     ?>
 </body>
 </html>

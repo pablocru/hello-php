@@ -7,17 +7,21 @@
 </head>
 <body>
     <?php
-        $codigo=1;
+    $codigo = 1;
 
-        // Es un ejemplo, pero se que no tiene ningun sentido el siguiente codigo
-        $msg="Has seleccionado el";
-        switch ($codigo) {
-            case 0: echo "$msg 0"; break;
-            case 1: echo "$msg 1"; break;
-            case 2: echo "$msg 2"; break;
-            case 3: echo "$msg 3"; break;
-            default: echo "$msg $codigo";
-        }
+    // Es un ejemplo, pero se que no tiene ningun sentido el siguiente codigo
+    $msg = "Has seleccionado el";
+    switch ($codigo) {
+        case 0: echo "$msg 0";
+            break;
+        case 1: echo "$msg 1";
+            break;
+        case 2: echo "$msg 2";
+            break;
+        case 3: echo "$msg 3";
+            break;
+        default: echo "$msg $codigo";
+    }
     ?>
 </body>
 </html>

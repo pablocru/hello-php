@@ -7,33 +7,33 @@
 </head>
 <body>
     <?php
-        $operador1=13;
-        $operador2=4;
+    $operador1 = 13;
+    $operador2 = 4;
 
-        echo "Resta: ";
-        $resultado=$operador1-$operador2;
-        echo "$operador1 - $operador2 = $resultado";
-        echo "<br><br>";
+    echo "Resta: ";
+    $resultado = $operador1 - $operador2;
+    echo "$operador1 - $operador2 = $resultado";
+    echo "<br><br>";
 
-        echo "Suma: ";
-        $resultado=$operador1+$operador2;
-        echo "$operador1 + $operador2 = $resultado";
-        echo "<br><br>";
+    echo "Suma: ";
+    $resultado = $operador1 + $operador2;
+    echo "$operador1 + $operador2 = $resultado";
+    echo "<br><br>";
 
-        echo "Multiplicacion: ";
-        $resultado=$operador1*$operador2;
-        echo "$operador1 * $operador2 = $resultado";
-        echo "<br><br>";
+    echo "Multiplicacion: ";
+    $resultado = $operador1 * $operador2;
+    echo "$operador1 * $operador2 = $resultado";
+    echo "<br><br>";
 
-        echo "Division: ";
-        $resultado=$operador1/$operador2;
-        echo "$operador1 / $operador2 = $resultado";
-        echo "<br><br>";
+    echo "Division: ";
+    $resultado = $operador1 / $operador2;
+    echo "$operador1 / $operador2 = $resultado";
+    echo "<br><br>";
 
-        echo "Resto: ";
-        $resultado=$operador1%$operador2;
-        echo "$operador1 % $operador2 = $resultado";
-        echo "<br><br>";
+    echo "Resto: ";
+    $resultado = $operador1 % $operador2;
+    echo "$operador1 % $operador2 = $resultado";
+    echo "<br><br>";
     ?>
 </body>
 </html>

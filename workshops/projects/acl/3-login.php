@@ -2,17 +2,17 @@
 // (A) PROCESS LOGIN ON SUBMIT
 session_start();
 if (isset($_POST["email"])) {
-  require "2-user-lib.php";
-  $USR->login($_POST["email"], $_POST["password"]);
+    require "2-user-lib.php";
+    $USR->login($_POST["email"], $_POST["password"]);
 }
 
 // (B) REDIRECT USER IF SIGNED IN
 if (isset($_SESSION["user"])) {
-	header("Location: 4-index.php");
-	exit();
+    header("Location: 4-index.php");
+    exit();
 }
 
-// (C) LOGIN FORM ?>
+// (C) LOGIN FORM?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -22,8 +22,10 @@ if (isset($_SESSION["user"])) {
   <body>
     <!-- (C1) ERROR MESSAGES (IF ANY) -->
     <?php
-    if (isset($_POST["email"])) { echo "<div id='notify'>Invalid user/password</div>"; }
-    ?>
+    if (isset($_POST["email"])) {
+        echo "<div id='notify'>Invalid user/password</div>";
+    }
+?>
 
     <!-- (C2) LOGIN FORM -->
     <form id="login" method="post">
