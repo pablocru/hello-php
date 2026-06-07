@@ -1,0 +1,32 @@
+{
+  "name": "pablocru/hello-php",
+  "authors": [
+    {
+      "name": "pablocru",
+      "email": "pablocru@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^8.3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pablocru\\HelloPhp\\": "workshops/"
+    }
+  },
+  "scripts": {
+    "lint": "php-cs-fixer fix",
+    "lint:check": "php-cs-fixer fix --dry-run",
+    "stan": "phpstan analyse",
+    "check": [
+      "@lint:check",
+      "@stan"
+    ]
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.95",
+    "phpstan/phpstan": "^2.2"
+  }
+}
