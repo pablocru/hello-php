@@ -1,0 +1,33 @@
+{
+  "name": "pablocru/hello-php",
+  "description": "Repositorio histórico de ejercicios y proyectos de php desarrollados durante la asignatura de Desarrollo Web en Entorno Servidor del Ciclo Formativo Grado Superior (CFGS) de Desarrollo de Aplicaciones Web (DAW)",
+  "authors": [
+    {
+      "name": "pablocru",
+      "email": "pablocru@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^8.3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pablocru\\HelloPhp\\": "workshops/"
+    }
+  },
+  "scripts": {
+    "analyze": "phpstan analyse",
+    "format": "php-cs-fixer fix",
+    "format:check": "php-cs-fixer fix --dry-run",
+    "check": [
+      "@format:check",
+      "@analyze"
+    ]
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.95",
+    "phpstan/phpstan": "^2.2"
+  }
+}

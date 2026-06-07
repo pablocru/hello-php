@@ -1,7 +1,38 @@
-dashboard
-img
-webalizer
-xampp
-applications.html
-bitnami.css
-favicon.ico
+# DEPENDENCIAS PHP (Composer)
+vendor/
+var/
+composer.phar
+
+# ARCHIVOS DE ENTORNO
+.env
+.env.*
+!.env.example
+
+# BASES DE DATOS / DUMPS
+database/dumps/
+*.dump
+
+# DOCKER
+docker-compose.override.yml
+**/*data/
+
+# PHP STORM
+/.phpstorm.meta.php
+/.fleet/
+*.iml
+
+# PHP UNIT / TESTS
+phpunit.xml
+.phpunit.result.cache
+
+# TOOLING PHP (si lo usas)
+.php-cs-fixer.cache
+.phpstan-cache/
+rector-cache/
+
+# LOGS Y CACHE
+*.log
+logs/
+cache/
+tmp/
+temp/

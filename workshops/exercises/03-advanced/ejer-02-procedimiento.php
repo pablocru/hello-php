@@ -7,11 +7,12 @@
 </head>
 <body>
     <?php
-        function saludo () {
-            echo "Hello world";
-        }
+    function saludo()
+    {
+        echo "Hello world";
+    }
 
-        saludo();
+    saludo();
     ?>
 </body>
 </html>

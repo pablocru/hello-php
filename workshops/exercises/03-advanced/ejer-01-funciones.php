@@ -7,14 +7,15 @@
 </head>
 <body>
     <?php
-        function producto ($n1, $n2){
-            return $n1*$n2;
-        }
+    function producto($n1, $n2)
+    {
+        return $n1 * $n2;
+    }
 
-        $n1=5;
-        $n2=7;
+    $n1 = 5;
+    $n2 = 7;
 
-        echo "El producto de $n1 y $n2 es ", producto ($n1, $n2);
+    echo "El producto de $n1 y $n2 es ", producto($n1, $n2);
     ?>
 </body>
 </html>
