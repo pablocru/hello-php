@@ -1,9 +1,11 @@
 {
-  "cSpell.words": [
-    "CFGS",
-    "phar",
-    "phpstan",
-    "phpstorm",
-    "phpunit"
-  ]
+  "cSpell.words": ["CFGS", "phar", "phpstan", "phpstorm", "phpunit"],
+  "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+  "editor.formatOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

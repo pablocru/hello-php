@@ -1,8 +1,9 @@
 {
   "recommendations": [
     "editorconfig.editorconfig",
-    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "junstyle.php-cs-fixer",
     "streetsidesoftware.code-spell-checker-spanish",
-    "esbenp.prettier-vscode"
+    "streetsidesoftware.code-spell-checker"
   ]
 }
