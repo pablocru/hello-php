@@ -3,6 +3,7 @@
 session_start();
 if (isset($_POST["email"])) {
     require "2-user-lib.php";
+    /** @var Users $USR */
     $USR->login($_POST["email"], $_POST["password"]);
 }
 

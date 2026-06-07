@@ -19,11 +19,13 @@
     $edad = 27;
 
     echo "Información de la variable \"nombre\": <br>";
-    echo var_dump($nombre), "<br>";
+    var_dump($nombre);
+    echo "<br>";
     echo "Contenido de la variable: $nombre <br>";
 
     $nombre = null;
-    echo "Después de asignarle un valor nulo: ", var_dump($nombre);
+    echo "Después de asignarle un valor nulo: ";
+    var_dump($nombre);
     ?>
 </body>
 </html>
